@@ -1,5 +1,7 @@
 # Condate
 
+[![Build Status](https://travis-ci.org/yuzoiwasaki/condate.png)](https://travis-ci.org/yuzoiwasaki/condate)
+
 献立決めプログラム。指定したジャンルの献立をランダムに表示します。
 
 ## Installation
