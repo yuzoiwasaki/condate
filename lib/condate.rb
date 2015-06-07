@@ -6,11 +6,14 @@ class Condate
 
   def initialize(genre)
     @genre = genre
-    @genre = %w(japanese chinese western).sample if @genre == 'any'
     decide
   end
 
   def decide
+    if @genre == 'any' || @any == 1
+      @genre = %w(japanese chinese western).sample
+      @any = 1
+    end
     choice = MENU[@genre].sample
   end
 
