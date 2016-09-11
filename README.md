@@ -29,6 +29,7 @@ condate = Condate.new('chinese')
 condate.decide #=> "チンジャオロースー"
 condate = Condate.new('western')
 condate.decide #=> "ハンバーグ"
+condate = Condate.new
 condate = Condate.new('any')
 condate.decide #=> 全ジャンルからランダムに表示
 ```
