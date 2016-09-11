@@ -6,7 +6,6 @@ class Condate
 
   def initialize(genre)
     @genre = genre
-    decide
   end
 
   def decide
